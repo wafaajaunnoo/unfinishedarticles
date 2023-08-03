@@ -26,4 +26,4 @@ Does the idea that we never truly die align with the notion of eternity? While o
 Now that I spat out what's been in my mind since 2017, I am convinced that the verse "Every soul shall taste death" offers a profound perspective on the nature of death and the eternal journey of the soul. By using the metaphor of tasting, Allah emphasizes that death is not merely an end but a transformative experience. It prompts us to contemplate the various worlds we traverse-  anyway. Death is not the end.  It is a transition.  Always have been.
 
 #### To read:
-1. [Imaan Al-Ghazaali's letter on preparing for death](https://cairocaprices.wordpress.com/my-translations/a-letter-on-preparing-for-death-by-imam-ghazali/)
+1. [Imaam Al-Ghazaali's letter on preparing for death](https://cairocaprices.wordpress.com/my-translations/a-letter-on-preparing-for-death-by-imam-ghazali/)
