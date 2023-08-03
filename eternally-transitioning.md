@@ -12,6 +12,13 @@ When God says, "Every soul shall taste death," it implies a unique perspective o
 
 Scholars have contemplated the significance of the phrase "tasting death" and its implications for the eternal nature of the soul. They propose that our existence is not limited to this earthly realm alone. Rather, it is a continuum that encompasses various stages, beginning with the realm of the souls (aalamul arwaah), passing through the womb of our mothers, progressing through our lives in this world, the tomb, the intermediate realm (barzakh), and ultimately leading to the Day of Judgment and the eternal abode of Heaven or Hell.
 
+[refactor!]
+Abdullah ibn Mas’ud reported that the Messenger of Allah (peace be upon him) narrated to them:
+
+عَنْ عَبْدِ اللَّهِ قَالَ حَدَّثَنَا رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَهُوَ الصَّادِقُ الْمَصْدُوقُ إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا ثُمَّ يَكُونُ فِي ذَلِكَ عَلَقَةً مِثْلَ ذَلِكَ ثُمَّ يَكُونُ فِي ذَلِكَ مُضْغَةً مِثْلَ ذَلِكَ ثُمَّ يُرْسَلُ الْمَلَكُ فَيَنْفُخُ فِيهِ الرُّوحَ وَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ بِكَتْبِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقِيٌّ أَوْ سَعِيدٌ فَوَالَّذِي لَا إِلَهَ غَيْرُهُ إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ فَيَسْبِقُ عَلَيْهِ الْكِتَابُ فَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ فَيَدْخُلُهَا وَإِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ فَيَسْبِقُ عَلَيْهِ الْكِتَابُ فَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ فَيَدْخُلُهَا
+
+“Verily, the creation of each one of you is brought together in his mother’s womb for forty days as a drop, then he is a clot for a similar period, then a morsel for a similar period, then there is sent to him the angel who blows the spirit into him and he is commanded regarding four matters: to write down his provision, his life span, his deeds, and whether he is blessed or damned. By Allah, other than whom there is no God, one of you acts like the people of Paradise until he is but an arm’s length from it, and what is written overtakes him so he acts like the people of Hellfire and he enters it. Verily, one of you acts like the people of Hellfire until he is but an arm’s length from it, and what is written overtakes him so he acts like the people of Paradise and he enters it.” [Bukhari and Muslim]
+
 ## The Concept of Eternity:
 
 Does the idea that we never truly die align with the notion of eternity? While our physical bodies may perish, the soul is believed to persist beyond the confines of this temporal world. The soul's eternal journey, as depicted in Islamic teachings, reinforces the belief in a greater purpose for our existence_______________something
