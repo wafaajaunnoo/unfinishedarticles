@@ -27,3 +27,4 @@ Now that I spat out what's been in my mind since 2017, I am convinced that the v
 
 #### To read:
 1. [Imaam Al-Ghazaali's letter on preparing for death](https://cairocaprices.wordpress.com/my-translations/a-letter-on-preparing-for-death-by-imam-ghazali/)
+2. [The Concept of Death: A Religio-philosophical Analysis - Mohammad Rasekh, S.M.R. Ayati and S.M.R. Ayati, Islamic Azad University](https://www.tandfonline.com/doi/abs/10.1080/09596410701396121)
