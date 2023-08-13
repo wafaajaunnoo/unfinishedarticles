@@ -1,0 +1,3 @@
+-- percolation and computation 
+-- i wish i could print out my brain and paste i here :)
+-- example using our beloved mother tongue ♡Java♡
