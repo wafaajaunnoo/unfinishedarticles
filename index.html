@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <title>Unfinished Articles</title>
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-      background: #f4f4f4;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      max-width: 600px;
-      line-height: 1.2;
-      color: #222;
-    }
-    p {
-      margin-top: 1rem;
-      font-style: italic;
-      color: #666;
-    }
-  </style>
-</head>
+   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+  <link rel="stylesheet" href="assets/styles.css"/>
+  
 <body>
-  <div>
+
+  <header>
     <h1>Unfinished Articles</h1>
-    <p>a safe space for works unburdened by deadlines</p>
-  </div>
+    <p class="tagline">a safe space for works unburdened by deadlines</p>
+  </header>
+
+  <nav>
+    <a href="index.html">About</a>
+
+    <div class="dropdown">
+      <a href="#">Unfinished Articles ▾</a>
+      <div class="dropdown-content">
+        <a href="#">Optimization</a>
+        <a href="#">Cool Algorithms</a>
+      </div>
+    </div>
+
+    <a href="letters.html">The Handwritten Letter Project  ▾</a>
+    <div class="dropdown-content">
+        <a href="#">Seven Moral Tales</a>
+        <a href="#">John Doe</a>
+      </div>
+  </nav>
+
+  <main>
+    <p style="text-align:center; margin-top: 2rem;">
+      Welcome to the lab of half-written dreams. <br/>
+      Click around. Nothing’s ever finished — just paused creatively.
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2025 Unfinished Articles — Completion date: TBD</p>
+    <p>Hosted on GitHub Pages (because Wordpress is for closers)</p>
+    <p>Spotted a typo? <a href="https://github.com/wafaajaunnoo/unfinishedarticles/issues" target="_blank">Open an issue</a>.</p>
+  </footer>
+
 </body>
 </html>
