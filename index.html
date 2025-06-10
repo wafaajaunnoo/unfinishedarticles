@@ -7,7 +7,34 @@
   <link rel="stylesheet" href="assets/styles.css"/>
   
 <body>
-  <iframe src="assets/navbar.html" style="width:100%; border:none; height:60px;"></iframe>
+ <nav class="navbar">
+    <div class="nav-container">
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <div class="dropdown">
+          <a href="#">Unfinished Articles ▾</a>
+          <div class="dropdown-content">
+            <a href="#">Optimization</a>
+            <a href="#">Cool Algorithms</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="letters.html">The Handwritten Letter Project ▾</a>
+          <div class="dropdown-content">
+            <a href="#">Seven Moral Tales</a>
+            <a href="#">John Doe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
   
   <header>
     <h1>Unfinished Articles</h1>
