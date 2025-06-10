@@ -35,9 +35,11 @@ nav {
   margin: 2rem auto;
   flex-wrap: wrap;
   font-family: 'Georgia', serif;
+  position: relative;
 }
 
 nav a {
+  margin: 0 1rem; 
   text-decoration: none;
   color: #333;
   font-weight: 500;
@@ -99,19 +101,6 @@ nav a:hover::after {
   display: block;
 }
 
-.page-intro {
-  text-align: center;
-  margin-top: 4rem;
-  line-height: 1.8;
-}
-
-.page-intro-heading {
-  font-size: 1.5rem;
-  font-weight: normal;
-  font-style: italic;
-  color: #444;
-}
-
 footer {
   text-align: center;
   font-size: 0.9rem;
@@ -119,4 +108,83 @@ footer {
   margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid #ddd;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem 0;
+}
+
+.hamburger span {
+  height: 2px;
+  width: 100%;
+  background-color: #111;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(7px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-7px);
+}
+
+@media (max-width: 768px) {
+  nav {
+    justify-content: flex-start;
+    margin: 1rem auto;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+    gap: 1rem;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    border: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none; 
+  }
+
+  .dropdown-content a {
+    padding-left: 1rem;
+  }
+
+  nav a {
+    padding-bottom: 8px;
+    font-size: 1.1rem;
+  }
 }
