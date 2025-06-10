@@ -99,6 +99,19 @@ nav a:hover::after {
   display: block;
 }
 
+.page-intro {
+  text-align: center;
+  margin-top: 4rem;
+  line-height: 1.8;
+}
+
+.page-intro-heading {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+  color: #444;
+}
+
 footer {
   text-align: center;
   font-size: 0.9rem;
@@ -106,4 +119,4 @@ footer {
   margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid #ddd;
-  }
+}
