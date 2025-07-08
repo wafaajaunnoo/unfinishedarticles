@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ page.title | default: "Unfinished Articles" }}</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"/>
+  <link rel="stylesheet" href="/assets/styles.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-links">
+        <a href="/">About</a>
+        <a href="/articles/">Articles</a>
+        <a href="/letters/">The Handwritten Letter Project</a>
+      </div>
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <footer>
+    <p>© 2025 Unfinished Articles</p>
+    <p>Hosted on GitHub Pages</p>
+    <p>Spotted a typo? <a href="https://github.com/wafaajaunnoo/unfinishedarticles/issues" target="_blank">Open an issue.</a></p>
+  </footer>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
