@@ -18,16 +18,14 @@
       </div>
     </nav>
 
-  <main>
-    {% if page.cover_image %}
-      <img src="{{ page.cover_image }}" alt="Cover image for {{ page.title }}" class="cover-image" />
-    {% endif %}
+ ---
+layout: default
+---
+{% for post in site.posts %}
+  <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
+  {% if post.categories %} • Filed under: {{ post.categories | join: ', ' }}{% endif %}
+{% endfor %}
 
-    <h1>{{ page.title }}</h1>
-    <article>
-      {{ content }}
-    </article>
-  </main>
 
   <footer>
     <p>© 2025 Unfinished Articles</p>
