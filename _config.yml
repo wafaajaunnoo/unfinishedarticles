@@ -1,5 +1,7 @@
 title: Unfinished Articles
 description: A space for works unburdened by deadlines
 theme: minima 
+baseurl: "/unfinishedarticles" 
+url: "https://wafaajaunnoo.github.io"
 plugins:
   - jekyll-sass-converter
