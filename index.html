@@ -1,28 +1,26 @@
 ---
 layout: default
-title: Unfinished Articles
+title: Home
 ---
+<section class="page-intro">
+  <h2 class="page-intro-heading">
+    completion is a social construct. not everything needs an ending.
+  </h2>
+  <p>
+    This site is a digital notebook of sorts. A space where thoughts, half-proofs, and questions are allowed to remain unfinished.
+  </p>
+  <p>
+    Inside: unfinished ideas in mathematics, computer science, and philosophy. 
+    Unpolished and unconcerned with the illusion of completion.
+  </p>
+</section>
 
-<header>
-  <h1>Unfinished Articles</h1>
-  <p class="tagline">a safe space for works unburdened by deadlines</p>
-</header>
-
-<main>
-  <section class="page-intro">
-    <h2>completion is a social construct. not everything needs an ending.</h2>
-    <p>This site is a digital notebook of sorts. A space where thoughts, half-proofs, and questions are allowed to remain unfinished.</p>
-    <p><b>Inside:</b> unfinished ideas in mathematics, computer science, and philosophy.</p>
-    <p><b>Bonus:</b> the Handwritten Letter Project.</p>
-    <p>Unpolished and unconcerned with the illusion of completion.</p>
-  </section>
-
-  <section class="posts-list">
-    {% for post in site.posts %}
-      <article>
-        <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
-        {% if post.categories %} • Filed under: {{ post.categories | join: ', ' }}{% endif %}
-      </article>
-    {% endfor %}
-  </section>
-</main>
+<h2>Recent Posts</h2>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
