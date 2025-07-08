@@ -6,7 +6,7 @@ title: Home
 <head>
   <meta charset="utf-8">
   <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
 </head>
 
 <section class="page-intro">
@@ -17,8 +17,8 @@ title: Home
     This site is a digital notebook of sorts. A space where thoughts, half-proofs, and questions are allowed to remain unfinished.
   </p>
   <p>
-    Inside: Unfinished ideas in mathematics, computer science, and philosophy. t
-    Bonus: The Handwritten Letter Project
+    <b>Inside:</b> Unfinished ideas in mathematics, computer science, and philosophy. 
+    <b>Bonus:</b> The Handwritten Letter Project
     Unpolished and unconcerned with the illusion of completion.
   </p>
 </section>
@@ -27,7 +27,7 @@ title: Home
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
     </li>
   {% endfor %}
