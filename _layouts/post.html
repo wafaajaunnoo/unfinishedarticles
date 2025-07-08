@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }} | Unfinished Articles</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-links">
+          <a href="index.html">About</a>
+          <a href="_posts/articles">Articles</a>
+          <a href="_posts/letters">The Handwritten Letter Project</a>
+        </div>
+      </div>
+    </nav>
+
+  <main>
+    {% if page.cover_image %}
+      <img src="{{ page.cover_image }}" alt="Cover image for {{ page.title }}" class="cover-image" />
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+    <article>
+      {{ content }}
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Unfinished Articles</p>
+  </footer>
+
+<script src="/assets/script.js"></script>
+</body>
+</html>

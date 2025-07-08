@@ -2,36 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
+  <meta name="viewport">
   <title>Unfinished Articles</title>
-   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+  <link rel="icon" type="image/svg+xml" href="/assets/styles.css"/>
   <link rel="stylesheet" href="assets/styles.css"/>
   
 <body>
  <nav class="navbar">
     <div class="nav-container">
-      <button class="hamburger" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
       <div class="nav-links">
         <a href="index.html">About</a>
-        <div class="dropdown">
-          <a href="#">Unfinished Articles ▾</a>
-          <div class="dropdown-content">
-            <a href="#">Optimization</a>
-            <a href="#">Cool Algorithms</a>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <a href="letters.html">The Handwritten Letter Project ▾</a>
-          <div class="dropdown-content">
-            <a href="#">Seven Moral Tales</a>
-            <a href="#">John Doe</a>
-          </div>
-        </div>
+        <a href="_posts/articles">Articles</a>
+        <a href="_posts/letters">The Handwritten Letter Project</a>
       </div>
     </div>
   </nav>
@@ -50,12 +32,26 @@
       <p>
         This site is a digital notebook of sorts. A space where thoughts, half-proofs, and questions are allowed to remain unfinished.
       </p>
-      <p>
-        Inside: unfinished ideas in mathematics, computer science, and philosophy. 
-        Unpolished and unconcerned with the illusion of completion.
-      </p>
+      <p> <b>Inside:</b> unfinished ideas in mathematics, computer science, and philosophy. </p>
+      <p> <b>Bonus:</b> the Handwritten Letter Project. </p>
+      <p> Unpolished and unconcerned with the illusion of completion. </p>
+   
     </section>
   </main>
+  
+  <section class="post-list">
+    <ul>
+      {% for post in site.posts %}
+        <li class="post-item">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="post-meta">
+            {{ post.date | date: "%B %d, %Y" }}
+            {% if post.categories %} • Filed under: {{ post.categories | join: ', ' }}{% endif %}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
   
   <footer>
     <p>© 2025 Unfinished Articles</p>
