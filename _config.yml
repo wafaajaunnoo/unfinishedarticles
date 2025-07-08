@@ -1,3 +1,5 @@
 title: Unfinished Articles
 description: A space for works unburdened by deadlines
 theme: minima 
+plugins:
+  - jekyll-sass-converter
