@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "rotten luck"
+title: "Rotten Luck"
 date: 2025-06-25
 categories: [unfinished articles]
 ---
