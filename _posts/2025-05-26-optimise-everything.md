@@ -1,8 +1,8 @@
-
 ---
+layout: post
 title: "Optimise Everything! Make Pythagoras Proud!"
 date: 2025-05-26
-categories: [articles]
+categories: [unfinished articles]
 ---
 
 
