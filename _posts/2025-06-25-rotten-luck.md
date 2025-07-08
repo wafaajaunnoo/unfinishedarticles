@@ -2,6 +2,7 @@
 layout: post
 title: "rotten luck"
 date: 2025-06-25
+categories: [articles]
 ---
 
 some people are built on fault lines. not cursed or doomed, but perpetually off, like fruit that rots from the inside before the skin even bruises. you know the type: the ones who always pick the grocery cart with the wobbly wheel. who fall in love with ghosts, or worse, with people who might as well be.  

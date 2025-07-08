@@ -2,7 +2,7 @@
 layout: post
 title: "Epistemic Tremors"
 date: 2025-07-08
-permalink: /articles/epistemic-tremors/
+categories: [articles]
 ---
 Some questions are like small tectonic shifts beneath the mind’s crust; barely felt, yet powerful enough to collapse the architecture of certainty you’ve spent years constructing.
 

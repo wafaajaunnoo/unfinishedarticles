@@ -2,10 +2,9 @@
 ---
 title: "Optimise Everything! Make Pythagoras Proud!"
 date: 2025-05-26
+categories: [articles]
 ---
 
-# Optimise Everything! Make Pythagoras Proud!
----
 
 ### Introduction: The Pythagorean Legacy in Optimization
 
@@ -18,8 +17,6 @@ But here’s the catch: the real world isn’t Euclidean. Data isn’t perfectly
 
 So how do we optimise in a messy, non-linear world?  
 **Answer:** We take inspiration from Pythagoras...but then we evolve beyond him!
-
----
 
 ### 1. The Problem with L² Norms (Pythagoras’ Blind Spot)
 
@@ -39,8 +36,6 @@ When this fails:
 
 **Solution?** Break Euclidean rules when needed.
 
----
-
 ### 2. Better Distance Metrics
 
 #### L¹ Norm (Manhattan Distance)
@@ -50,8 +45,6 @@ Formula:
 
 **When to use:** Sparse data, robust statistics (ignores outliers better than L²).
 
----
-
 #### Cosine Similarity
 
 Formula:  
@@ -59,7 +52,6 @@ Formula:
 
 **When to use:** Text embeddings, recommendation systems.
 
----
 
 #### Dynamic Time Warping (DTW)
 
@@ -67,11 +59,9 @@ Formula:
 
 **When to use:** Financial forecasting, speech recognition.
 
----
 
 **Key Idea:** Different problems need different geometries.
 
----
 
 ### 3. Optimisation in Modern AI
 
@@ -81,21 +71,18 @@ Formula:
 - **Problem:** Gets stuck in saddle points for non-convex problems.
 - **Fix:** Adaptive methods (Adam, RMSProp).
 
----
 
 #### Bayesian Optimization
 
 - Models the shape of the loss landscape.
 - Great for hyperparameter tuning.
 
----
 
 #### Quantum Optimisation
 
 - Exploits quantum mechanics for parallel search.
 - Still experimental, but promising.
 
----
 
 ### 4. The Future: Physics-Informed Optimization
 
@@ -105,7 +92,6 @@ New frontiers include:
 - **Thermodynamic AI:** Optimizing like nature minimizes energy.
 - **Causal Optimization:** Not just correlation, but causation.
 
----
 
 **Key Insight:**  
 > The best optimisers don’t force Euclidean rules, they adapt to the problem’s natural geometry.
@@ -113,6 +99,5 @@ New frontiers include:
 **Final Thought:**  
 > Optimisation isn’t about fitting models. Rather, it’s about discovering the hidden rules under the hood. And sometimes, that means breaking the old ones.
 
----
 
 
