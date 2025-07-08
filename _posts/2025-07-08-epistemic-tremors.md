@@ -4,7 +4,6 @@ title: "Epistemic Tremors"
 date: 2025-07-08
 permalink: /articles/epistemic-tremors/
 ---
-
 Some questions are like small tectonic shifts beneath the mind’s crust; barely felt, yet powerful enough to collapse the architecture of certainty you’ve spent years constructing.
 
 I used to believe that knowledge was a stable building: you lay the foundations (axioms), erect the walls (proofs), and install the windows (intuition) to let in light. But lately, it feels more like living on a fault line: the floorboards tilt slightly each morning, and you wake unsure whether the bookshelf will still be standing.

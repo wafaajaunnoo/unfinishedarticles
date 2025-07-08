@@ -1,36 +1,43 @@
+---
+# Optional: you can put front matter here if you want
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>{{ page.title }} | Unfinished Articles</title>
-  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
 
-    <nav class="navbar">
-      <div class="nav-container">
-        <div class="nav-links">
-          <a href="index.html">About</a>
-          <a href="_posts/articles">Articles</a>
-          <a href="_posts/letters">The Handwritten Letter Project</a>
-        </div>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">About</a>
+        <a href="{{ '/articles/' | relative_url }}">Articles</a>
+        <a href="{{ '/letters/' | relative_url }}">The Handwritten Letter Project</a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
- ---
-layout: default
----
-{% for post in site.posts %}
-  <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
-  {% if post.categories %} • Filed under: {{ post.categories | join: ', ' }}{% endif %}
-{% endfor %}
+  <article>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
+    {% if page.categories %}
+      <p>Filed under: {{ page.categories | join: ', ' }}</p>
+    {% endif %}
 
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
 
   <footer>
     <p>© 2025 Unfinished Articles</p>
   </footer>
 
-<script src="/assets/script.js"></script>
+  <script src="{{ '/assets/script.js' | relative_url }}"></script>
 </body>
 </html>
