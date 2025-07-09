@@ -7,7 +7,7 @@ title: Articles
 
 <ul class="post-list">
   {% for post in site.posts %}
-  {% if post.categories contains "articles" %}
+   {% if "unfinished articles" in post.categories %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
