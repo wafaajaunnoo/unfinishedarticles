@@ -1,0 +1,17 @@
+---
+layout: default
+title: The Handwritten Letter Project
+---
+
+<h1>The Handwritten Letter Project</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  {% if post.categories contains "articles" %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
